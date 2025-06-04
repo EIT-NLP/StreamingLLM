@@ -1,0 +1,12 @@
+{
+    "if_add_space": true,
+    "source_key": "en",
+    "target_key": "fr",
+
+    "Instruct":"<|im_start|>system\nTranslate the following English paragraph to French<|im_end|>\n",
+    "user_Instruct":"<|im_start|>user\n",
+    "assistant_Instruct":"<|im_start|>assistant\n",
+    "end_Instruct":"<|im_end|>\n",
+
+    "file_path": "/data/train_data.json"
+}
