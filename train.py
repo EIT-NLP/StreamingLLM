@@ -1,9 +1,9 @@
 from transformers import AutoTokenizer, TrainingArguments, AutoConfig
 from dataloader_hf import StreamingDataCollator
 from streaming_trainer import StreamingSFTTrainer
-from Models.Llama3.llama_streaming import LlamaForCausalLM_stream
-from Models.Qwen2_5.qwen_streaming import Qwen2ForCausalLM_stream
-from Models.Gemma2.gemma2_streaming import Gemma2ForCausalLM_stream
+from models.Llama3.llama_streaming import LlamaForCausalLM_stream
+from models.Qwen2_5.qwen_streaming import Qwen2ForCausalLM_stream
+from models.Gemma2.gemma2_streaming import Gemma2ForCausalLM_stream
 import wandb
 import os
 os.environ["HF_DATASETS_DISABLE_CACHE"] = "1"

@@ -3,9 +3,9 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from dataloader_hf import StreamingDataCollator
-from Models.Llama3.llama_streaming import LlamaForCausalLM_stream
-from Models.Qwen2_5.qwen_streaming import Qwen2ForCausalLM_stream
-from Models.Gemma2.gemma2_streaming import Gemma2ForCausalLM_stream
+from models.Llama3.llama_streaming import LlamaForCausalLM_stream
+from models.Qwen2_5.qwen_streaming import Qwen2ForCausalLM_stream
+from models.Gemma2.gemma2_streaming import Gemma2ForCausalLM_stream
 os.environ["HF_DATASETS_DISABLE_CACHE"] = "1"
 import torch
 from torch.utils.data import DataLoader
