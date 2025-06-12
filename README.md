@@ -66,6 +66,8 @@ These methods lack rigorous analysis of the fundamental discrepancies between ba
   <figcaption>Figure 1: Two streaming paradigms of LLMs: (a) Three types of mismatch between  batch-processin and interleaved-streaming paradigms. (b) The batch-streaming paradigm simulates batch-processing by re-encoding previously generated outputs.</figcaption>
 </figure>
 
+<br><br>
+
 <figure>
   <img src="./asset/model.png" alt="Mismatch types" width="100%">
   <figcaption>Figure 2: Our group-streaming paradigm.   (Left) Positional grouping of source and target tokens in the streaming LLM, avoiding re-encoding. The target start ID φ is a hyperparameter, which can be selected as 0. (Right) The attention mask matrix during the training ensures that target tokens can only attend to  locally available inputs.</figcaption>
