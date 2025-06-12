@@ -53,6 +53,7 @@ These methods lack rigorous analysis of the fundamental discrepancies between ba
   <figcaption>Figure 1: Two streaming paradigms of LLMs: (a) Three types of mismatch between  batch-processin and interleaved-streaming paradigms. (b) The batch-streaming paradigm simulates batch-processing by re-encoding previously generated outputs.</figcaption>
 </figure>
 
+
 Among the three mismatches, we find that input-attention mismatch has the most significant impact on streaming model performance, while position ID mismatch primarily affects generalization. Based on these insights, we propose a group-streaming LLM that adheres to the batch-processing paradigm while isolating source and target position encodings. Our group-streaming paradigm is similar with batch-streaming, but do not need re-encoding. 
 
 **Our streaming paradigm is simple yet effective. It requires no architectural modifications to the LLMs, relying only on grouped positional encodings and corresponding causal masks for adaptation,** shown in the Figure 2. It supports mainstream large language models, including but not limited to [Qwen](https://huggingface.co/Qwen), [LLaMA](https://huggingface.co/meta-llama), [Gemma](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315), and [Phi](https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3).
