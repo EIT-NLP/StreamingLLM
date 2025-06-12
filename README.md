@@ -16,10 +16,11 @@ We introduce a new streaming paradigm that enables large language models to achi
 <!-- We introduce a new streaming paradigm that enables large language models to perform well in streaming settings, while requiring no architectural modifications. -->
 
 
-## Release
-Streaming speech models and additional streaming LLM implementations will be added soon.  
-[05/06/2025] The code has been released!  
-[22/05/2025] Our paper now can be found at https://arxiv.org/abs/2505.16983.
+## News
+* [ ] Streaming speech models and additional streaming LLM implementations will be added soon.  
+* [x] [05/06/2025] The code has been released.
+* [x] [22/05/2025] Our paper now can be found at https://arxiv.org/abs/2505.16983.
+
 ## Batch-processing vs. streaming-processing
 ### batch-processing: The LLMs process inputs all at once after receiving the full sequence.
 ![batch-processing](./asset/batch.gif)
@@ -30,7 +31,7 @@ The LLMs simulate full batch-processing by re-encoding previously generated outp
 #### Interleaved-streaming: 
 The LLMs encode and generate tokens step-by-step, interleaving new input reception with ongoing decoding.
 ![streaming-processing](./asset/interleaved.gif)
-#### <span style="color:red">Our group-streaming:</span>
+#### 💡 <span style="color:red">Our group-streaming:</span>
 The LLMs process input in grouped segments, where tokens within each group are arranged in chronological order. Source and target sequences use separate positional encodings to preserve their respective temporal structures.
 ![batch-processing](./asset/streaming.gif)
 
