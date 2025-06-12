@@ -48,11 +48,12 @@ These methods lack rigorous analysis of the fundamental discrepancies between ba
 * **Output-attention mismatch**: Whether the target tokens can attend to the new source token,
 * **Position-ID mismatch mismatch**: Whether the position IDs reflect the actual token order.
 
+<!--
 <figure>
   <img src="./asset/Mismatch.png" alt="Mismatch types" width="100%">
   <figcaption>Figure 1: Two streaming paradigms of LLMs: (a) Three types of mismatch between  batch-processin and interleaved-streaming paradigms. (b) The batch-streaming paradigm simulates batch-processing by re-encoding previously generated outputs.</figcaption>
 </figure>
-
+-->
 
 <p>Among the three mismatches, we find that input-attention mismatch has the most significant impact on streaming model performance, while position ID mismatch primarily affects generalization. Based on these insights, we propose a group-streaming LLM that adheres to the batch-processing paradigm while isolating source and target position encodings. Our group-streaming paradigm is similar with batch-streaming, but do not need re-encoding.</p> 
 
@@ -60,6 +61,10 @@ These methods lack rigorous analysis of the fundamental discrepancies between ba
 
 <!-- ![batch-processing](./asset/Mismatch.png) -->
 
+<figure>
+  <img src="./asset/Mismatch.png" alt="Mismatch types" width="100%">
+  <figcaption>Figure 1: Two streaming paradigms of LLMs: (a) Three types of mismatch between  batch-processin and interleaved-streaming paradigms. (b) The batch-streaming paradigm simulates batch-processing by re-encoding previously generated outputs.</figcaption>
+</figure>
 
 <figure>
   <img src="./asset/model.png" alt="Mismatch types" width="100%">
