@@ -756,7 +756,7 @@ class unified_PreTrainedModel(PreTrainedModel):
 
 
 
-    def prepare_inputs_for_generation(
+    def prepare_inputs_for_generation_streaming(
         self,
         input_ids,
         past_key_values=None,
@@ -999,7 +999,7 @@ class unified_PreTrainedModel(PreTrainedModel):
             if ReadAction:
                 # prepare model inputs
                 self.separate_source_target()
-                model_inputs = self.prepare_inputs_for_generation(input_ids, input_length=input_length, ReadAction=ReadAction, is_streaming =True,
+                model_inputs = self.prepare_inputs_for_generation_streaming(input_ids, input_length=input_length, ReadAction=ReadAction, is_streaming =True,
                                                                     **model_kwargs)
                 # prepare variable output controls (note: some models won't accept all output controls)
                 model_inputs.update({"output_attentions": output_attentions} if output_attentions else {})
@@ -1019,7 +1019,7 @@ class unified_PreTrainedModel(PreTrainedModel):
                 self.separate_source_target()
                 token_count += 1
                 # prepare model inputs
-                model_inputs = self.prepare_inputs_for_generation(next_tokens, input_length=input_length, ReadAction=ReadAction, is_streaming =True,
+                model_inputs = self.prepare_inputs_for_generation_streaming(next_tokens, input_length=input_length, ReadAction=ReadAction, is_streaming =True,
                                                                     **model_kwargs)
                 # prepare variable output controls (note: some models won't accept all output controls)
                 model_inputs.update({"output_attentions": output_attentions} if output_attentions else {})
