@@ -154,10 +154,11 @@ def main():
         target_txt_lt.extend(target_txt)
         output_text_lt.extend([output_text,])
 
-        output_text_len = len(output_text.split())
-        al, laal = calculate_al_and_laal(len(_lengths[0]['source_seg_len'])-1, output_text_len, wait_lagging[:output_text_len])
-        AL.append(al)
-        LAAL.append(laal)
+        if inference_mode == "streaming":
+            output_text_len = len(output_text.split())
+            al, laal = calculate_al_and_laal(len(_lengths[0]['source_seg_len'])-1, output_text_len, wait_lagging[:output_text_len])
+            AL.append(al)
+            LAAL.append(laal)
 
 
         if accelerator.is_main_process:
@@ -165,13 +166,14 @@ def main():
             print("streaming-output:\n", output_text)
 
 
-    avg_LAAL = sum(LAAL) / len(LAAL)
-    avg_AL = sum(AL) / len(AL)
     bleu = sacrebleu.corpus_bleu(output_text_lt, [target_txt_lt])
-
     logging.info(f"BLEU score: {bleu.score:.2f}")
-    logging.info(f"all_AL score: {avg_AL:.2f}")
-    logging.info(f"all_LAAL score: {avg_LAAL:.2f}")
+    
+    if inference_mode == "streaming":
+        avg_LAAL = sum(LAAL) / len(LAAL)
+        avg_AL = sum(AL) / len(AL)
+        logging.info(f"all_AL score: {avg_AL:.2f}")
+        logging.info(f"all_LAAL score: {avg_LAAL:.2f}")
 
 
 if __name__ == "__main__":
