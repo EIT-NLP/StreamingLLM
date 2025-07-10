@@ -857,6 +857,11 @@ class Qwen2Model_stream(Qwen2Model):
 
         else:
             if generate_mode == 'batch':
+                if past_key_values is not None and len(past_key_values) > 0:
+                    history_source_length = past_key_values[0][0].shape[-2]
+                else:
+                    history_source_length = 0
+                current_length = history_source_length + inputs_embeds.shape[1]
                 cache_position = torch.arange(history_source_length, current_length, dtype=torch.long, device=cache_position.device)
                 causal_mask = self._update_causal_mask(
                     attention_mask, inputs_embeds, cache_position, past_key_values, output_attentions
