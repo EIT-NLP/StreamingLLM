@@ -11,10 +11,15 @@ This repository includes a family of streaming large language models.
 Streaming LLMs refer to large language models that support both the progressive processing of incoming information (streaming input) and the step-by-step generation of outputs (streaming output). Building upon this foundation, we further focus on scenarios where the model performs streaming input and output simultaneously. 
 
 There is an example for text-to-text streaming：
-![streaming-processing](./asset/streaming.gif)
+![streaming-processing](./assets/streaming.gif)
 
 There is an example for speech-to-text streaming：
-![streamingASR-processing](./asset/StreamingASR.mp4)
+<video width="640" controls>
+  <source src="./assets/StreamingASR.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 
 ## 3. Content
