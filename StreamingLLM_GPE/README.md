@@ -1,4 +1,4 @@
-<h1 align="center"><b>LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding</b></h1>
+<h1 align="center"><b>[ACL 2025 Findings] LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding</b></h1>
 </div>
 
 
