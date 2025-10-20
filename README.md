@@ -14,10 +14,8 @@ There is an example for text-to-text streaming：
 ![streaming-processing](./assets/streaming.gif)
 
 There is an example for speech-to-text streaming：
-<video width="640" controls>
-  <source src="./assets/StreamingASR.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](./assets/StreamingASR.gif)](./assets/StreamingASR.mp4)
+
 
 
 
