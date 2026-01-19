@@ -10,10 +10,10 @@ This repository includes a family of streaming large language models.
 ## 2. What are streaming LLMs?
 Streaming LLMs refer to large language models that support both the progressive processing of incoming information (streaming input) and the step-by-step generation of outputs (streaming output). Building upon this foundation, we further focus on scenarios where the model performs streaming input and output simultaneously. 
 
-There is an example for text-to-text streaming：
+Here is an example for text-to-text streaming：
 ![streaming-processing](./assets/streaming.gif)
 
-There is an example for speech-to-text streaming：
+Here is an example for speech-to-text streaming：
 [![Watch the video](./assets/StreamingASR.gif)](./assets/StreamingASR.mp4)
 
 
