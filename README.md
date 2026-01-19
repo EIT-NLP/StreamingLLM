@@ -23,6 +23,7 @@ There is an example for speech-to-text streaming：
 ## 3. Content
 * [ACL 2025 Findings] [LLM as Effective Streaming Processor: Bridging Streaming-Batch Mismatches with Group Position Encoding.](./StreamingLLM_GPE/README.md)
 * [arxiv preprint] [StreamingThinker: Large Language Models Can Think While Reading.](./StreamingThinker/README.md)
+* [arxiv preprint] [Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models.](https://github.com/EIT-NLP/Speak-While-Watching)
 
 
 
