@@ -1,7 +1,9 @@
 <h1 align="center"><b>Repository of Streaming Large Language Models</b></h1>
 </div>
 
-
+## 🚀 Latest News
+**[2026-01] *Streamingthinker* is accepted by *ICLR 2026*.** Code will be available soon.
+[2025-05] One paper is accepted by *Findings of ACL 2025*.
 
 
 ## 1. TL;DR
