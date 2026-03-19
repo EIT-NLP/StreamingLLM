@@ -11,10 +11,12 @@
 **We introduce a streaming thinking paradigm that enables LLMs to reason while reading, instead of waiting until the entire input is available.** 
 
 ## News
-* [ ] Data coming soon.
 * [x] [2026.3] Code has been released.
 * [x] [2025.10] Our paper now can be found at https://arxiv.org/abs/2510.17238.
 
+## ToDo
+* [ ] Release full training set.
+* [ ] Release vLLM inference version.
 
 ## 1. Introduction
 Large language models have achieved impressive results in chain-of-thought reasoning, but standard reasoning pipelines remain fundamentally batch-oriented: the model only starts thinking after the entire input is received. This is inefficient for streaming scenarios such as interactive dialogue, long-context analysis, and real-time decision making.
