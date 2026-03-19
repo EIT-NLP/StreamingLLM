@@ -6,6 +6,8 @@
 
 **[2026-02] *Think-as-You-See* is accepted by *CVPR 2026*.** Code will be available soon.
 
+**[2026-01] We release a paper *Speak-While-Watching*.** 
+
 **[2026-01] *StreamingThinker* is accepted by *ICLR 2026*.** 
 
 **[2025-05] *StreamingLLM_GPE* is accepted by *Findings of ACL 2025*.**
@@ -28,11 +30,12 @@ Streaming LLMs refer to large language models that support both the progressive 
 
 ---
 
-Here is an example for text-to-text streaming：
+Here is an example of streaming reasoning (text-to-text streaming)：
 ![streaming-processing](./assets/streaming.gif)
 
-Here is an example for speech-to-text streaming：
-[![Watch the video](./assets/StreamingASR.gif)](./assets/StreamingASR.mp4)
+
+Here is an example of streaming speech recognition (speech-to-text streaming)：
+[![Watch the video](./assets/StreamingASR.gif)](./assets/StreamingASR.gif)
 
 
 
