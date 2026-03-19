@@ -1,0 +1,12 @@
+{
+    "file_path": "data/train/merged_math_D1.json",
+    "Instruct": [
+    "<|im_start|>user\nYou are a streaming reasoner to perform a streaming reasoning with deep thinking task. 1. In the streaming reasoning, you should perform a sentence-by-sentence streaming reasoning, i.e. when you encounter an '<EOS>' in the Input context, perform reasoning about the sentence that before this '<EOS>', focus on: (1) Summarize or extract key information, (2) Reformulate the meaning in clearer or more explicit terms, (3) Minimal, natural logic-based extensions. Importantly, end the reasoning for each Original Input sentence with '<EOT>'. 2. In the deeper reasoning, you should perform a global and deep reasoning with input and streaming reasoning: (1) Your goal is to condense and refine the streaming shallow reasoning into a focused, high-level reasoning trace that directly leads to the final answer. (2) Focus on identifying the most relevant insights that directly support answering the question. Keep your reasoning concise, focused, and deeper. 3.Your number or equation answer must be enclosed in \\boxed{{}}. Start your reasoning based on following content:"],
+
+    "end_Instruct": "<|im_end|>\n",
+    "reasoning_connect_1": ["<|im_start|>assistant\n<think>\n"],
+
+    "reasoning_connect_2": [""],
+
+    "reasoning_connect_3": ["</think>\n\n"]
+}

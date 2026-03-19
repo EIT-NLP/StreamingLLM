@@ -1,0 +1,20 @@
+[    
+    {
+        "Instruct_Context": {
+            "context": "Benjamin slew 100 goblins with his mighty sword, while Diego, using a spear, slew 4/5 as many goblins as Benjamin.<EOS> Using a rusty iron axe, Andre slew nine times as many goblins as Diego.<EOS> But Bodhi, having forgot his sword at home, slew two-sixths as many goblins as Andre using a nail file.<EOS>",
+            "instruct": "How many goblins each person have slew on average?"
+        },
+        "streaming_reasoning": "Okay, let's see. The question is asking How many goblins each person have slew on average?<EOQ>  \nBenjamin slew 100 goblins, and Diego slew 4/5 as many as Benjamin, which is 100 × 4/5 = 80 goblins.<EOT>  \nAndre used a rusty iron axe and slew nine times as many as Diego, so 80 × 9 = 720 goblins.<EOT>  \nBodhi slew two-sixths (which simplifies to one-third) of Andre's total, so 720 × (1/3) = 240 goblins.<EOT>",
+        "deep_reasoning": "First, calculate each person's count: Benjamin (100), Diego (80), Andre (720), Bodhi (240). Total goblins slain = 100 + 80 + 720 + 240 = 1140. There are 4 people, so average is 1140 ÷ 4 = 285. This seems correct as each step follows the given ratios and sums to the total before dividing.  \n<EOR> Therefore, the answer is \\box{285}.<EOA>\n",
+        "answer": "\\boxed{285}"
+    },
+    {
+        "Instruct_Context": {
+            "context": "Elisa and her two friends went out to dinner.<EOS> Each of them ordered a meal worth $10.<EOS> Afterwards, they each had a scoop of the same kind of ice cream.<EOS>",
+            "instruct": "If the $45 Elisa had was enough to pay for everything, what was the cost of a scoop of ice cream?"
+        },
+        "streaming_reasoning": "Okay, let's see. The question is asking If the $45 Elisa had was enough to pay for everything, what was the cost of a scoop of ice cream?<EOQ>  \nElisa and her two friends went out to dinner. This means there are three people in total.<EOT>  \nEach of them ordered a meal worth $10. So the total cost for meals is 3 × $10 = $30.<EOT>  \nAfterwards, they each had a scoop of the same kind of ice cream. So there are three scoops in total, all at the same price per scoop.<EOT>",
+        "deep_reasoning": "The total amount spent is the sum of the cost of the meals and the cost of the ice cream. The meals cost $30. Let the cost of one scoop of ice cream be x. Then the total cost of ice cream is 3x. The total amount spent is $30 + 3x, and this must be less than or equal to $45. Since the problem states that $45 was \"enough to pay for everything,\" the total cost is exactly $45. Therefore, $30 + 3x = $45. Solving for x gives 3x = $15, so x = $5. This means each scoop of ice cream costs $5. The reasoning is straightforward: total cost of meals and ice cream equals $45, subtract the known meal cost to find the total ice cream cost, then divide by the number of scoops to find the price per scoop. <EOR> Therefore, the answer is \\box{5}.<EOA>\n",
+        "answer": "\\boxed{5}"
+    }
+]

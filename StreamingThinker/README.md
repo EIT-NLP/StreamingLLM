@@ -6,14 +6,14 @@
 <a href="https://huggingface.co/JunlongTong/StreamingLLM" target="_blank"><img alt="Demo" src="https://img.shields.io/badge/🤗 Hugging Face Models-2980b9?color=2980b9" /></a>
 </p>
 
-Code will be released soon.
 
 ## TL;DR
 **We introduce a streaming thinking paradigm that enables LLMs to reason while reading, instead of waiting until the entire input is available.** 
 
 ## News
-* [ ] Code will be released soon.
-* [x] [20/10/2025] Our paper now can be found at https://arxiv.org/abs/2510.17238.
+* [ ] Data coming soon.
+* [x] [2026.3] Code has been released.
+* [x] [2025.10] Our paper now can be found at https://arxiv.org/abs/2510.17238.
 
 
 ## 1. Introduction
@@ -80,10 +80,28 @@ StreamingThinker is built on the streaming thinking paradigm and consists of thr
 </table>
 
 
-## 3. implementation
-### 3.1 Requriments
-### 3.2 Training
-### 3.3 Inference
+## 3. Implementation
+**Requriments**
+
+```bash
+git clone https://github.com/EIT-NLP/StreamingLLM.git
+cd StreamingLLM/StreamingThinker
+
+pip install -r requirements.txt
+```
+
+**Training**
+
+An example dataset is provided in the ```StreamingThinker/data/``` folder. The complete dataset will be released soon.
+
+To launch the training pipeline, execute the following script:
+```bash
+bash StreamingThinker/scripts/train_streaming.sh
+```
+
+**Inference**
+
+We provide the evaluation code in ```StreamingThinker/evaluate/``` folder.
 
 
 

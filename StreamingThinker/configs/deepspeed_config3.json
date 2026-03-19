@@ -1,0 +1,33 @@
+{
+    "bf16": {
+        "enabled": true
+    },
+
+    "zero_optimization": {
+        "stage": 3,
+        "reduce_scatter": true,
+        "contiguous_gradients": true,
+        "overlap_comm": true,
+        "offload_param": {
+            "device": "none"
+        },
+        "offload_optimizer": {
+            "device": "none"
+        },
+
+        "stage3_max_live_parameters": 1e9,
+        "stage3_max_reuse_distance": 1e9,
+        "stage3_prefetch_bucket_size": 2e8,
+        "stage3_param_persistence_threshold": 1e5,
+        "stage3_gather_16bit_weights_on_model_save": true
+    },
+
+    "gradient_accumulation_steps": "auto",
+    "train_batch_size": "auto",
+    "train_micro_batch_size_per_gpu": "auto",
+
+    "gradient_clipping": 1.0,
+
+    "steps_per_print": 200,
+    "wall_clock_breakdown": false
+}
