@@ -3,7 +3,7 @@
 
 <p align="center">
 <a href="https://arxiv.org/abs/2510.17238" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2510.17238-DA644E?logo=arxiv" /></a>
-<a href="https://huggingface.co/JunlongTong/StreamingLLM" target="_blank"><img alt="Demo" src="https://img.shields.io/badge/🤗 Hugging Face Models-2980b9?color=2980b9" /></a>
+<!-- <a href="https://huggingface.co/JunlongTong/StreamingLLM" target="_blank"><img alt="Demo" src="https://img.shields.io/badge/🤗 Hugging Face Models-2980b9?color=2980b9" /></a> -->
 </p>
 
 
