@@ -35,7 +35,7 @@ Here is an example of streaming reasoning (text-to-text streaming)：
 
 
 Here is an example of streaming speech recognition (speech-to-text streaming)：
-[![Watch the video](./assets/StreamingASR.gif)](./assets/StreamingASR.gif)
+![streaming-processing](./assets/StreamingASR.gif)
 
 
 
