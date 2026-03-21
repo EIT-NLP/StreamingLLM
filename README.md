@@ -4,7 +4,7 @@
 ## 🚀 Latest News
 **[2026-03] We have released *the first* survey paper about *Streaming LLMs/MLLMs*, covering text/speech/video stream.**
 
-**[2026-02] *Think-as-You-See* is accepted by *CVPR 2026*.** Code will be available soon.
+**[2026-02] *Think-as-You-See* is accepted by *CVPR 2026*.**
 
 **[2026-01] We release a paper *Speak-While-Watching*.** 
 
