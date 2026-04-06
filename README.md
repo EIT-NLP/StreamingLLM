@@ -2,6 +2,7 @@
 </div>
 
 ## 🚀 Latest News
+**[2026-04] Streaming LLMs survey has been accepted by *Findings of ACL 2026.***
 **[2026-03] We have released *the first* survey paper about *Streaming LLMs/MLLMs*, covering text/speech/video stream.**
 
 **[2026-02] *Think-as-You-See* is accepted by *CVPR 2026*.**
@@ -21,7 +22,7 @@ This repository collects the works of [EIT-NLP Lab](https://idt.eitech.edu.cn/nl
 * **[ICLR 2026]** [StreamingThinker: Large Language Models Can Think While Reading.](./StreamingThinker/README.md)
 * **[arxiv preprint]** [Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models.](https://github.com/EIT-NLP/Speak-While-Watching)
 * **[CVPR 2026]** [Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models.](https://github.com/EIT-NLP/StreamingLLM/tree/main/TaYS)
-* **[arxiv preprint]** [From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
+* **[ACL 2026 Findings]** [From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
 
 
 
