@@ -2,7 +2,8 @@
 </div>
 
 ## 🚀 Latest News
-**[2026-04] Streaming LLMs survey has been accepted by *Findings of ACL 2026.***  
+**[2026-04] Streaming LLMs survey has been accepted by *Findings of ACL 2026.***
+
 **[2026-03] We have released *the first* survey paper about *Streaming LLMs/MLLMs*, covering text/speech/video stream.**
 
 **[2026-02] *Think-as-You-See* is accepted by *CVPR 2026*.**
