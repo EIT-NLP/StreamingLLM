@@ -224,12 +224,13 @@ def main():
         ignore_mismatched_sizes=True,
         config=config,
     ).to(torch.bfloat16)
+    model.resize_token_embeddings(len(tokenizer))
 
     if args.use_lora:
         peft_config = LoraConfig(
             r=32,
             lora_alpha=64,
-            target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_up_proj", "up_proj", "down_proj"],
+            target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_up_proj", "up_proj", "down_proj","lm_head"],
             lora_dropout=0.1,
             bias="all",
             task_type="CAUSAL_LM",
