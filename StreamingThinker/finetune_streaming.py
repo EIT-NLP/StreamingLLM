@@ -224,7 +224,7 @@ def main():
         ignore_mismatched_sizes=True,
         config=config,
     ).to(torch.bfloat16)
-    model.resize_token_embeddings(len(tokenizer))
+    # model.resize_token_embeddings(len(tokenizer))
 
     if args.use_lora:
         peft_config = LoraConfig(
