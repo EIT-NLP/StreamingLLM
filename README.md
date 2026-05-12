@@ -2,6 +2,8 @@
 </div>
 
 ## 🚀 Latest News
+**[2026-05] *ProactiveLLM* is accepted by *ICML 2026.***
+
 **[2026-04] Streaming LLMs survey has been accepted by *Findings of ACL 2026.***
 
 **[2026-03] We have released *the first* survey paper about *Streaming LLMs/MLLMs*, covering text/speech/video stream.**
@@ -24,6 +26,7 @@ This repository collects the works of [EIT-NLP Lab](https://idt.eitech.edu.cn/nl
 * **[arxiv preprint]** [Speak While Watching: Unleashing TRUE Real-Time Video Understanding Capability of Multimodal Large Language Models.](https://github.com/EIT-NLP/Speak-While-Watching)
 * **[CVPR 2026]** [Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models.](https://github.com/EIT-NLP/StreamingLLM/tree/main/TaYS)
 * **[ACL 2026 Findings]** [From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
+* **[ICML 2026]** [ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.](./ProactiveLLM/README.md)
 
 
 
