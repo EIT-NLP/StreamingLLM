@@ -4,6 +4,7 @@
 <p align="center">
 <a href="https://arxiv.org/abs/2510.17238" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2510.17238-DA644E?logo=arxiv" /></a>
 <a href="https://jl-tong.github.io/streamingthinker/" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-StreamingThinker-2ea44f?logo=googlechrome&logoColor=white" /></a>
+<a href="https://huggingface.co/datasets/JunlongTong/StreamingCoT" target="_blank"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-StreamingCoT-ffcc4d?logo=huggingface&logoColor=black" /></a>
 <!-- <a href="https://huggingface.co/JunlongTong/StreamingLLM" target="_blank"><img alt="Demo" src="https://img.shields.io/badge/🤗 Hugging Face Models-2980b9?color=2980b9" /></a> -->
 </p>
 
@@ -12,11 +13,11 @@
 **We introduce a streaming thinking paradigm that enables LLMs to reason while reading, instead of waiting until the entire input is available.** 
 
 ## News
+* [x] [2026.5] Full training set has been released.
 * [x] [2026.3] Code has been released.
 * [x] [2025.10] Our paper now can be found at https://arxiv.org/abs/2510.17238.
 
 ## ToDo
-* [ ] Release full training set.
 * [ ] Release vLLM inference version.
 
 ## 1. Introduction
