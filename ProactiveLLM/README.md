@@ -4,12 +4,10 @@
 
 
 ## TL;DR
-**We introduce a streaming thinking paradigm that enables LLMs to reason while reading, instead of waiting until the entire input is available.** 
+**ProactiveLLM enables LLMs to actively decide when to interact in streaming settings by learning endogenous semantic sufficiency cues from partial inputs, reducing latency without external teachers, timing labels, or annotated reasoning trajectories while maintaining generation quality.** 
 
-<!-- ## News
-* [x] [2026.3] Code has been released.
-* [x] [2025.10] Our paper now can be found at https://arxiv.org/abs/2510.17238. -->
+## News
+* [x] [2026.6] Our paper now can be found at https://arxiv.org/abs/2606.00523.
 
-<!-- ## ToDo
+## ToDo
 * [ ] Release source code.
-* [ ] Release paper. -->
