@@ -30,7 +30,7 @@ This repository collects the works of [EIT-NLP Lab](https://idt.eitech.edu.cn/nl
 * **[arxiv 2026]** [AdaSR: Adaptive Streaming Reasoning with Hierachical Relaetive Policy Optimization.](./AdaSR/README.md)
 
 
-## 3. Brief Introduction of real-time streaming LLMs
+## 3. Brief introduction of real-time streaming LLMs
 Streaming LLMs refer to large language models that support both the progressive processing of incoming information (streaming input) and the step-by-step generation of outputs (streaming output). Building upon this foundation, we further focus on scenarios where the model performs streaming input and output simultaneously. The formal definition and taxonomy of streaming LLMs/MLLMs can be found in our [survey paper](https://github.com/EIT-NLP/Awesome-Streaming-LLMs).
 
 ---
