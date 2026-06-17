@@ -1,4 +1,4 @@
-<h1 align="center"><b>Repository of Streaming Large Language Models</b></h1>
+<h1 align="center"><b>Repository of Real-Time Streaming Large Language Models</b></h1>
 </div>
 
 ## 🚀 Latest News
@@ -27,7 +27,7 @@ This repository collects the works of [EIT-NLP Lab](https://idt.eitech.edu.cn/nl
 * **[CVPR 2026]** [Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models.](https://github.com/EIT-NLP/StreamingLLM/tree/main/TaYS)
 * **[ACL 2026 Findings]** [From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
 * **[ICML 2026]** [ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.](./ProactiveLLM/README.md)
-
+* **[arxiv 2026]** [AdaSR: Adaptive Streaming Reasoning with Hierachical Relaetive Policy Optimization.](./AdaSR/README.md)
 
 
 ## 3. What are streaming LLMs?
