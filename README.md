@@ -28,6 +28,7 @@ This repository collects the works of [EIT-NLP Lab](https://idt.eitech.edu.cn/nl
 * **[ACL 2026 Findings]** [From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models.](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
 * **[ICML 2026]** [ProactiveLLM: Learning Active Interaction for Streaming Large Language Models.](./ProactiveLLM/README.md)
 * **[arxiv 2026]** [AdaSR: Adaptive Streaming Reasoning with Hierachical Relaetive Policy Optimization.](./AdaSR/README.md)
+* **[arxiv 2026]** [ViCoStream: Streaming VideoLLMs Can Run Beyond 100 FPS with Stage-Wise Coordinated Inference.](./ViCoStream/README.md)
 
 
 ## 3. Brief introduction of real-time streaming LLMs
