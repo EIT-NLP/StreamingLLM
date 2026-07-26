@@ -1,0 +1,4 @@
+transformers==4.49.0
+accelerate==1.5.2
+qwen-vl-utils[decord]==0.0.8
+six>=1.17.0

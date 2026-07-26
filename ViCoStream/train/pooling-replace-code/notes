@@ -1,0 +1,8 @@
+cp train/pooling-replace-code/base.py train/ms-swift/swift/llm/template/base.py
+cp train/pooling-replace-code/qwen.py train/ms-swift/swift/llm/template/template/qwen.py
+cp train/pooling-replace-code/sft.py train/ms-swift/swift/llm/train/sft.py
+cp train/pooling-replace-code/base_args.py train/ms-swift/swift/llm/argument/base_args/base_args.py
+
+cp train/pooling-replace-code/modeling_qwen2_5_vl.py train/transformers/src/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py
+
+cp train/pooling-replace-code/utils.py train/transformers/src/transformers/generation/utils.py
